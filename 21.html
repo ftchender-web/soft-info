@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<style>
+		span{
+		font-size: 10px;
+		margin-top: 0;
+		}
+		.navbar{
+			display: flex;
+			gap: 10px;
+			align-items: center;
+		}
+		.avatar{
+			width: 25px;
+			height: 25px;
+			object-fit: cover;
+		}
+		.alison{
+			font-size: 30px;
+		}
+		.search{
+			object-fit: cover;
+			border-radius: 0;
+			width: 200px;
+			border: 1px solid rgb(99, 97, 97);
+			height: 30px;
+			align-items: center;
+		}
+		.search-box{
+			display: flex;
+			border: 1px solid white;
+		}
+		.avatar-2{
+			width: 24px;
+			height: 24px;
+			align-self: center;
+		}
+		.avatar2{
+			width: 30px;
+			height: 30px;
+			background: white;
+			padding: 5px;
+		}
+		.link{
+			display: flex;
+			gap: 20px;
+			color:#978C8C;
+			margin-top: 0;
+		}
+		.last{
+			display: flex;
+			gap: 15px;
+			align-items: center;
+		}
+		.login{
+			color: #3CAE4D;
+			font-weight: bold;
+		}
+		.signup{
+			width: 70px;
+			font-weight: bold;
+			height: 30px;
+			padding-top: 10px;
+			padding-left: 15px;
+			background: #3CAE4D;
+			color: white;
+			border-radius: 8px;
+		}
+	/*----------------------------------*/
+		.nav-2{
+			background: blue;
+			color: white;
+			display: flex;
+			height: 80px;
+			align-items: center;
+			justify-content: space-around;
+		}
+		.nav-2 .free{
+			margin-top: 0;
+		}
+		.free{
+			font-weight: bold;
+		}
+		.how{
+			background: white;
+			width: 150px;
+			height: 40px;
+			padding-left: 28px;
+			border-radius: 8px;
+			padding-top: 15px;
+			color: 	#3F6ABA;
+		}
+	/*----------------------------------*/
+		.learn{
+			margin-top: 10px;
+			align-items: center;
+			text-align: center;
+			color: white;
+			display: flex;
+			justify-content: center;
+		
+		}
+		.get{
+			display: flex;
+			gap: 20px;
+			background: #39673F;
+			border-radius: 20px;
+			width: 250px;
+			padding-top: 10px;
+		}
+		.eme{
+			display: flex;
+			background:	#B4B8B7;
+			border-radius: 20px;
+			gap: 20px;
+		}
+		.get-2{
+			 display: flex;
+			gap: 20px;
+			border-radius: 20px;
+			width: 250px;
+			padding-top: 10px;
+		}
+		.get-3{
+			display: flex;
+			gap: 20px;
+			border-radius: 20px;
+			width: 250px;
+			padding-top: 10px;
+		}
+/*-----------------------------------*/
+		.input{
+			width: 700px;
+			height: 30px;
+			align-items: center;
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+			border-radius: 0;
+		}
+		
+		.input-box{
+			align-items: center;
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+		}
+		.search-2{
+			width: 400px;
+			height: 30px;
+			align-items: center;
+			padding-left: 100px;
+			object-fit: cover;
+			border-radius: 0;
+			border: 2px solid #ccc;
+			background: white;
+			padding: 20px;
+		}
+		.free{
+			font-size: 30px;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-top: 20px;
+		}
+		.course-title{
+			text-align: center;
+			width: 100%;
+		}
+/*------------------------------------*/
+		.four-image{
+			display: flex;
+			gap: 15px;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		.one-image{
+			width: 200px;
+			height: 200px;
+		}
+		.inikite{
+			background:	#161C57;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			color: white;
+			gap: 20px;
+			justify-content: center;
+			font-size: 9px;
+			text-align: center;
+		}
+		.substit-inikite{
+			display: flex;
+			align-items: center;
+			gap: 2px;
+		}
+		.inikite-substit{
+			display: flex;
+			align-items: center;
+			border-right: 2px solid #ccc;
+			padding-right: 10px;
+		}
+		.million{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+		.million-5{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin-left: 50px;
+		}
+		.million-4{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin-left: 40px;
+		}
+/*------------------------------------*/
+		.four-word{
+			border-bottom: 1px solid grey;
+			margin-top: 10px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+		}
+		.substit-word{
+			color: grey;
+			display: flex;
+			height: 40px;
+			align-items: center;
+			justify-content: space-around;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-bottom: 5px;
+		}
+		.txt{
+			color: grey;
+		}
+		.txt:hover{
+			color: #0A5C5D;
+			border-bottom: 2px solid #0A5C5D;
+		}
+		.text-1{
+			color: grey;
+			min-width: 0;
+			overflow-wrap: anywhere;
+		}
+/*------------------------------------*/
+	.this-is{
+		border: 1px solid black;
+		flex: 0 0 min(400px, calc(100vw - 40px));
+		box-sizing: border-box;
+		margin-top: 20px;
+		padding: 9px;
+		border-radius: 8px;
+		background: #5C807C2B;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.two-element{
+		display: flex;
+		gap: 10px;
+		margin-top: 10px;
+		
+	}
+	.training{
+		font-size: 20px;
+	}
+	.element-one span{
+		font-size: 14px;
+	}
+	.pa span{
+		font-size: 16px;
+	}
+	.health > span{
+		font-size: 20px;
+	}
+	.element-one{
+		display: flex;
+		gap: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		color: grey;
+	}
+	.steward{
+		border-bottom: 1px solid black;
+		padding: 5px ;
+	}
+	.one-text{
+		display: flex;
+		height: 70px;
+		padding: 5px;
+		align-items: center;
+		gap: 15px;
+		margin-top: 20px;
+	}
+	.pa{
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+		margin-top: 15px;
+	}
+	.button{
+		display: flex;
+		gap: 30px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.more{
+		width: 90px;
+		height: 30px;
+		border: 1px solid;
+		padding-top: 10px;
+		text-align: center;
+		border-radius: 10px;
+		color:	grey;
+	}
+	.start{
+		width: 110px;
+		height: 30px;
+		padding-top: 10px;
+		text-align: center;
+		background: lightgreen;
+		color:	grey;
+		border-radius: 10px;
+	}
+	.link{
+		color: grey;
+	}
+		.more:hover{
+		background: black;
+	}
+	/*---------------------------------*/
+	.certifier{
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1;
+		object-fit: cover;
+	}
+	.health{
+		margin-top: 15px;
+		width: 350px;
+	}
+	.supportt{
+		margin-top: 10px;
+	}
+	.avatar-logo{
+		width: 50px;
+		height: 50px;
+		object-fit: cover;
+	}
+	.getting{
+		margin-left: 10px;
+	}
+	.kontni{
+		display: flex;
+		gap: 20px;
+		overflow-x: auto;
+		padding: 20px;
+		scroll-behavior: smooth;
+			scrollbar-width: thin;
+	}
+	.end{
+		width: 400px;
+		background: blue;
+
+	}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+				<div class="logo">
+					<img src="image.jpeg" alt="logo" class="avatar-logo"/>
+				</div>
+				<div class="alison">
+					Alison
+				</div>
+				<div class="search-box">
+					<input type="search" placeholder="What do you want to learn" class="search">
+					<div class="avatar2">
+						<img src="search.png" alt="loupe" class="avatar-2"/>
+					</div>
+				</div>
+				<div class="link">
+					<div>
+						Explore courses
+					</div>
+					<div>
+						Discorver careers
+					</div>
+					<div>
+						More
+					</div>
+					<div class="2avatar" style="padding-left: 10px; border-left: 2px solid #ccc; border-right: 2px solid #ccc; padding-top: 5px; width: 100px; display: flex; gap: 40px;">
+						<div>
+							<img src="free.png" alt="avatar" class="avatar"/>
+						</div>
+						<div>
+							<img src="dollar.png" alt="laura" class="avatar"/>
+						</div>
+					</div>
+					<div class="last">
+						<div class="login">
+							login
+						</div>
+						<div class="signup">
+							sign up
+						</div>
+						<div class="avatar-big">
+							<img src="world.png" alt="laura" class="avatar"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<span>Empower yourself</span>
+	</header>
+	<div class="nav-2">
+		<div class="free">
+			Want to upskills your whole team for free
+		</div>
+		<div class="how">
+			Discovery How!
+		</div>
+	</div>
+	<div class="learn">
+		<div class="eme">
+			<div class="get">
+				<div class="getting">
+					<img src="book.png" alt="laura.jpeg" class="avatar"/>
+				</div>
+					<div>
+					learn & Get Certificate
+				</div>
+			</div>
+			<div class="get-2">
+					<div>
+						<img src="mallete.png" alt="laura.jpeg" class="avatar" />
+					</div>
+					<div>
+						Build your career
+					</div>
+			</div>
+			<div class="get-3">
+				<div>
+					<img src="monaie.png" alt="laura.jpeg" class="avatar" />
+				</div>
+				<div>
+					Earn on alison
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="free course-title">
+			Free online courses with certificates & Diplomas
+	</div>
+	<div class="input-box">
+			<div class="input">
+				<input type="search" class="search-2" placeholder="What do you whant to learn">
+			</div>
+	</div>
+	<div class="kontenè">
+		<div class="four-image">
+			<div class="bici">
+				<img src="telescope.png" alt="laura" class="one-image"/>
+			</div>
+			<div class="bici">
+				<img src="banc.png" alt="laura" class="one-image"/>
+			</div>
+			<div class="bici">
+				<img src="velo.png" alt="laura" class="one-image" />
+			</div>
+			<div class="bici">
+				<img src="homme.png" alt="laura" class="one-image" />
+			</div>
+		</div>
+		<!--inikte content-->
+		<div class="inikite">
+			<div>
+				Rated Excellent
+			</div>
+			<div class="substit-inikite">
+				<div>
+					<img src="etoile.png" alt="laura" class="avatar"/>
+				</div>
+				<div>
+					<img src="etoile.png" alt="laura" class="avatar" />
+				</div>
+				<div>
+					<img src="etoile.png" alt="laura" class="avatar" />
+				</div>
+				<div>
+					<img src="etoile.png" alt="laura" class="avatar" />
+				</div>
+				<div>
+					<img src="etoile.png" alt="laura" class="avatar" />
+				</div>
+			</div>
+			<div class="inikite-substit">
+				<div>
+					<img src="etoile2.png" alt="laura" class="avatar"/>
+				</div>
+				<div>
+					Trustpilot
+				</div>
+			</div>
+			<div class="million">
+				<div>
+					<img src="many.png" alt="laura" class="avatar"/>
+				</div>
+				<div>
+					<b>40 Million</b>+Learners
+				</div>
+			</div>
+			<div class="million-4">
+				<div>
+					<img src="gaduation.png" alt="laura" class="avatar" />
+				</div>
+				<div>
+					<b>8 Million</b>+Graduates
+				</div>
+			</div>
+			<div class="million-5">
+				<div>
+					<img src="globe.png" alt="laura" class="avatar" />
+				</div>
+				<div>
+					<b>40 Million</b>+Learners
+				</div>
+			</div>
+			<!--pa mete nan bwat sa -->
+		</div>
+	</div>
+	<div class="four-word">
+		<div class="substit-word">
+			<div class="txt">
+				Popular Courses
+			</div>
+			<div class="txt">
+				Top Diplomas
+			</div>
+			<div class="txt">
+				Top Certificates
+			</div>
+			<div class="txt">
+				New Courses
+			</div>
+		</div>
+	</div>
+	
+	<!--
+	<div class="arrow">
+		<img src="laura.jpeg" alt="laura" class="avatar" />
+	</div>
+	kanpe la-->
+	<div class="kontni">
+		<div class="this-is">
+			<div class="clean">
+				<div class="steward">
+					<span class="training">Cleaning steward training</span>
+					<!--gwo bwat paran an -->
+					<div class="two-element">
+						<!--premye a -->
+						<div class="element-one">
+							<div class="num-one">
+								<img src="oloj.png" alt="hours" class="avatar"/>
+							</div>
+							<span>2 - 3hrs</span>
+						</div>
+						<!--dezyêm nan-->
+						<div class="element-one">
+							<div class="num-one">
+								<img src="grad.png" alt="hours" class="avatar" />
+							</div>
+							<span>3,324 learners</span>
+						</div>
+					</div>
+					<a class="link" href="By Training Facility UK">By Training Facility UK</a>
+				</div>
+			</div>
+			<div class="text-block">
+				<div class="pa">
+					<span>M pa k wè sa ki la a!</span>
+				</div>
+				<div class="one-text">
+					<div class="imaje">
+						<img src="check.png" alt="check" class="avatar"/>
+					</div>
+					<div class="text-1">
+						Chwazi Modèl Aprantisaj: Deside ki jan AI a pral entèvni pou bay feedback imedyat oswa esplikasyon etap pa etap. 
+					</div>
+				</div>
+				<div class="one-text">
+					<div class="imaje">
+						<img src="check.png" alt="check" class="avatar" />
+					</div>
+					<div class="text-1">
+						Chwazi Modèl Aprantisaj: Deside ki jan AI a pral entèvni pou bay feedback imedyat oswa esplikasyon etap pa etap.
+					</div>
+				</div>
+				<div class="one-text">
+					<div class="imaje">
+						<img src="check.png" alt="check" class="avatar" />
+					</div>
+					<div class="text-1">
+						Chwazi Modèl Aprantisaj: Deside ki jan AI a pral entèvni pou bay feedback imedyat oswa esplikasyon etap pa etap.
+					</div>
+				</div>
+				<div class="one-text">
+					<div class="imaje">
+						<img src="check.png" alt="check" class="avatar" />
+					</div>
+					<div class="text-1">
+						Chwazi Modèl Aprantisaj: Deside ki jan AI a pral entèvni pou bay feedback imedyat oswa esplikasyon etap pa etap.
+					</div>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="soignate.jpeg" alt="soignate" class="certifier"/>
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Build practical skills for supporting people with health needs.
+				</div>
+			</div>
+			<div	class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>2 - 3hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>62,656 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+
+		</div>
+		<!----------------------------------->
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="katsan.jpeg" alt="katsan"  class="certifier"/>
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Learn communication and wellbeing skills for everyday care.
+				</div>
+			</div>
+			<div	class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>2 - 3hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>62,656 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="bebe.jpeg" alt="laura" class="certifier" />
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Develop confidence in daily caregiving and patient support.
+				</div>
+			</div>
+			<div class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>6 - 10hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>604,941 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="katsan.jpeg" alt="katsan"  class="certifier"/>
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Explore safe and respectful practices for professional care.
+				</div>
+			</div>
+			<div	class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>2 - 3hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>62,656 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="bebe.jpeg" alt="laura" class="certifier" />
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Prepare for compassionate care in homes and communities.
+				</div>
+			</div>
+			<div class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>6 - 10hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>604,941 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="katsan.jpeg" alt="katsan"  class="certifier"/>
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Improve your knowledge of health support and inclusion.
+				</div>
+			</div>
+			<div	class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>2 - 3hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>62,656 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		<div class="this-is">
+			<div class="certificate">
+				<div>
+					<img src="bebe.jpeg" alt="laura" class="certifier" />
+				</div>
+			</div>
+			<div class="health">
+				<span>Health</span>
+				<div class="supportt">
+					Learn how to create a safe and caring environment.
+				</div>
+			</div>
+			<div class="two-element">
+				<div class="element-one">
+					<div class="num-one">
+						<img src="oloj.png" alt="hours" class="avatar" />
+					</div>
+					<span>6 - 10hrs</span>
+				</div>
+				<div class="element-one">
+					<div class="num-one">
+						<img src="grad.png" alt="hours" class="avatar" />
+					</div>
+					<span>604,941 learners</span>
+				</div>
+			</div>
+			<div class="button">
+				<div class="more">
+					More info
+				</div>
+				<div class="start">
+					Start Learning
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
