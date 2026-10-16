@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tableau de bord scolaire MonÉcole">
+    <title>MonÉcole — Tableau de bord</title>
+    <link rel="stylesheet" href="monsite.css">
+</head>
+<body>
+    <div class="kokiy-sit">
+        <header class="ba-anwo">
+            <a class="mak" href="#" aria-label="MonÉcole, accueil">
+                <span class="siy-mak" aria-hidden="true">◆</span>
+                <span>MonÉcole</span>
+            </a>
+
+            <nav class="navigasyon-prensipal" aria-label="Navigation principale">
+                <a class="lyen-navigasyon aktif" href="#">▦ <span>Accueil</span></a>
+                <a class="lyen-navigasyon" href="#">▣ <span>Cours</span></a>
+                <a class="lyen-navigasyon" href="#">✓ <span>Exercices</span></a>
+                <a class="lyen-navigasyon" href="#">♟ <span>Professeurs</span></a>
+                <a class="lyen-navigasyon" href="#">▤ <span>Classes</span></a>
+            </nav>
+
+            <div class="aksyon-ba-anwo">
+                <form class="fom-rechech" role="search">
+                    <label class="kache-vizyelman" for="site-search">Rechercher</label>
+                    <input id="site-search" type="search" placeholder="Rechercher..." autocomplete="off">
+                    <button class="bouton-rechech" type="submit" aria-label="Lancer la recherche">⌕</button>
+                </form>
+                <button class="bouton-pwofil" type="button">
+                    <span class="ikonn-pwofil" aria-hidden="true">A</span>
+                    <span class="non-pwofil">Connexion</span>
+                    <span aria-hidden="true">⌄</span>
+                </button>
+            </div>
+        </header>
+        <div class="gwo-bwat">
+            <section class="bann-akey" aria-labelledby="welcome-title">
+                <div class="teks-akey">
+                    <p class="ti-tit">VOTRE ESPACE D'APPRENTISSAGE</p>
+                    <h1 id="welcome-title">Bienvenue sur MonÉcole</h1>
+                    <p>Un espace d'apprentissage moderne, simple et efficace<br class="kase-liy-odinate"> pour tous les élèves.</p>
+                    <a class="bouton-prensipal" href="#matieres">▣ &nbsp; Commencer maintenant <span aria-hidden="true">→</span></a>
+                </div>
+            </section>
+            
+            <br>
+            <br>
+            <br>
+            <section class="seksyon-kontni seksyon-matye" id="matieres" aria-labelledby="subjects-title">
+                <div class="tit-seksyon">
+                    <div>
+                        <h2 id="subjects-title"><span class="ikon-tit">▣</span> Nos matières</h2>
+                        <p class="deskripsyon-seksyon">Choisissez une matière pour accéder aux cours et exercices.</p>
+                    </div>
+                    <a class="lyen-teks" href="#">Voir toutes les matières <span aria-hidden="true">→</span></a>
+                </div>
+
+                <div class="lis-matye">
+                    <a class="kat-matye" href="#">
+                        <span class="ikon-matye mov">π</span>
+                        <strong>Mathématiques</strong>
+                        <span class="lyen-matye">Voir les cours <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="kat-matye" href="#">
+                        <span class="ikon-matye vet">▤</span>
+                        <strong>Français</strong>
+                        <span class="lyen-matye">Voir les cours <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="kat-matye" href="#">
+                        <span class="ikon-matye jon">⚛</span>
+                        <strong>Physique-Chimie</strong>
+                        <span class="lyen-matye">Voir les cours <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="kat-matye" href="#">
+                        <span class="ikon-matye vyole">文</span>
+                        <strong>SVT</strong>
+                        <span class="lyen-matye">Voir les cours <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="kat-matye" href="#">
+                        <span class="ikon-matye wouj">◷</span>
+                        <strong>Histoire-Géographie</strong>
+                        <span class="lyen-matye">Voir les cours <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="kat-matye" href="#">
+                        <span class="ikon-matye ble-vet">▤</span>
+                        <strong>Informatique</strong>
+                        <span class="lyen-matye">Voir les cours <span aria-hidden="true">→</span></span>
+                    </a>
+                </div>
+            </section>
+            <div class="aranjman-tablo">
+                <section class="bwat-kontni bwat-resan" aria-labelledby="recent-title">
+                    <div class="tit-bwat">
+                        <h2 id="recent-title"><span class="ikon-tit">▰</span> Exercices récents</h2>
+                        <a class="lyen-teks" href="#">Voir tous les exercices <span aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="anvlop-tablo">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Matière</th>
+                                    <th>Nom de l'exercice</th>
+                                    <th>Statut</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="etiket etiket-ble">Mathématiques</span></td>
+                                    <td>Calcul sur les fractions</td>
+                                    <td><span class="etiket etiket-vet">Fini</span></td>
+                                    <td><a class="ti-bouton" href="#">Voir l'exercice</a></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="etiket etiket-vet">Français</span></td>
+                                    <td>Accords du futur</td>
+                                    <td><span class="etiket etiket-jon">En cours</span></td>
+                                    <td><a class="ti-bouton" href="#">Voir l'exercice</a></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="etiket etiket-jon">Physique-Chimie</span></td>
+                                    <td>Les états de la matière</td>
+                                    <td><span class="etiket etiket-wouj">À faire</span></td>
+                                    <td><a class="ti-bouton" href="#">Voir l'exercice</a></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="etiket etiket-vyole">SVT</span></td>
+                                    <td>Le système solaire</td>
+                                    <td><span class="etiket etiket-jon">En cours</span></td>
+                                    <td><a class="ti-bouton" href="#">Voir l'exercice</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <aside class="bwat-kontni bwat-elev" aria-labelledby="student-title">
+                    <h2 id="student-title"><span class="ikon-tit">♟</span> Espace Élève</h2>
+                    <p class="deskripsyon-seksyon">Accédez à votre espace personnel pour suivre votre progression.</p>
+                    <a class="bouton-prensipal bouton-elev" href="#">♟ &nbsp; Se connecter</a>
+                    <div class="avi">
+                        <strong><span class="pwen-avi"></span> Nouveau sur la plateforme ?</strong>
+                        <p>Créez votre compte gratuitement et accédez à toutes les ressources.</p>
+                        <a href="#">Créer un compte <span aria-hidden="true">→</span></a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+            
+        <footer class="pye-paj">
+            <a class="mak mak-pye-paj" href="#">
+                <span class="siy-mak" aria-hidden="true">◆</span>
+                <span>MonÉcole</span>
+            </a>
+            <p>Ensemble pour un meilleur avenir</p>
+            <div class="lyen-rezo-sosyal" aria-label="Réseaux sociaux">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="YouTube">▶</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
